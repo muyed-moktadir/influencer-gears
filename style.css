@@ -88,8 +88,8 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  grid-row-gap: 10%;
-  padding: 30px 0px 30px 140px;
+  grid-row-gap: 5%;
+  padding: 30px 0px 30px 0px;
 }
 
 .product .product-image img {
