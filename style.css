@@ -98,13 +98,22 @@ main {
 
 .product {
   width: 65%;
-
+  position: relative;
   /* margin: 10%; */
   padding: 20px;
   margin-top: 0%;
   border-radius: 6px;
-  filter: drop-shadow(0 0 0.75rem rgba(102, 88, 26, 0.747));
+  overflow: hidden;
+
   /* background-color: red; */
+}
+.product:hover {
+  filter: drop-shadow(0.75rem 0.75rem 0.75rem rgba(65, 63, 57, 0.63));
+}
+
+.product:hover .product-image {
+  transform: scale(1.4) rotate(360deg);
+  transition: transform 2s ease-in-out;
 }
 
 .product-title {
