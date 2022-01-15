@@ -3,4 +3,81 @@
 /* import different css style and other utilities */
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+/* .........influencer-section-style..............  */
+/* .box-1 {
+  display: flex;
+  column-gap: 20px;
+} */
+
+.container {
+  /* background-color: darkgoldenrod; */
+  width: 100%;
+}
+
+.box-1 {
+  /* background-color: blueviolet; */
+  width: 100%;
+  /* height: 414px; */
+  display: flex;
+  justify-content: center;
+}
+
+.influencer-details {
+  /* background-color: coral; */
+  height: 400px;
+  width: 100%;
+  /* border: 2px solid rgb(18, 230, 212); */
+}
+
+.itroduction {
+  font-size: 52px;
+  width: 582px;
+  height: 140px;
+  /* background-color: rgb(211, 27, 27); */
+  padding-left: 15px;
+}
+
+p {
+  font-size: 16px;
+  width: 505px;
+  height: 150px;
+  padding-left: 15px;
+}
+
+.button-design {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  padding-left: 15px;
+}
+
+.button {
+  background-color: #e02c6d;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 24px 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.fa-arrow-right {
+  color: rgb(224, 218, 218);
+  padding-left: 10px;
+}
+
+/* .........photo........... */
+/* .photo-box {
+  background-color: deeppink;
+  border: 2px solid yellowgreen;
+} */
+.photo-box img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 90px;
 }
