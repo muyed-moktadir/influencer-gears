@@ -6,6 +6,11 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
+}
+header {
+  /* background-color: rgb(0, 0, 46);
+  color: white; */
 }
 /* .........influencer-section-style..............  */
 
@@ -16,35 +21,33 @@ body {
 }
 
 .container {
-  width: 100%;
-  height: 100%;
+  width: 1120px;
+  padding: 30px;
+  margin: 0 auto;
 }
-
-.box-1 {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 40px;
+.influencer-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 100px;
 }
 
 .influencer-details {
-  height: 400px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
 }
-
-.itroduction {
+.introduction {
   font-size: 52px;
   margin-top: 0%;
   margin-bottom: 0%;
 }
-
 .my-role {
   font-size: 16px;
   width: 505px;
   height: 150px;
 }
-
 .button-design {
   display: flex;
   align-items: center;
@@ -67,19 +70,18 @@ body {
   color: rgb(224, 218, 218);
   padding-left: 10px;
 }
-
-.photo-box img {
-  width: 400px;
-  height: 300px;
-  border-radius: 10px;
-  margin-top: 20%;
+.photo-box {
+  display: flex;
+  align-items: center;
 }
-
+.photo-box img {
+  width: 100%;
+}
 /*.................... popular collection css start..................... */
 
-.products-container {
+/* .products-container {
   margin-top: 100px;
-}
+} */
 
 #title {
   margin-top: 0%;
@@ -92,7 +94,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   grid-gap: 30px;
-  padding: 0px 170px 0px 170px;
+  /* padding: 0px 170px 0px 170px; */
   margin-bottom: 0%;
 }
 
@@ -164,36 +166,33 @@ body {
 .feature-product {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
   grid-gap: 30px;
-  padding-top: 11%;
-  padding-bottom: 14%;
+  margin: 100px 0;
 }
 
 .feature-product .feature-image img {
-  width: 500px;
+  width: 80%;
   border-radius: 10px;
-
-  margin-left: 20%;
+}
+.feature-article {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
 }
 
 .feature-news {
-  font-size: 2em;
-  padding-left: 10px;
-  margin-top: 4px;
+  font-size: 32px;
+  margin: 10px 0;
 }
 #feature-details {
-  padding-right: 20%;
-  padding-left: 10px;
-}
-
-.join-now {
-  margin-top: 15px;
-  padding-left: 10px;
+  font-size: 16px;
+  margin: 10px 0;
 }
 
 /* footer */
-
+footer {
+  width: 100%;
+}
 #footer-info {
   padding: 0%;
   margin: 0%;
@@ -211,11 +210,12 @@ body {
 
 .footer-items {
   color: white;
-  background-color: rgb(0, 0, 0);
-  /* text-align: center; */
+  width: 100%;
+  height: 180px;
+  background-color: rgb(0, 0, 46);
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  align-items: center;
 }
 
 .footer-text {
@@ -234,7 +234,7 @@ body {
 
 /* mobile devices */
 @media only screen and (max-width: 688) {
-  .container {
+  /* .container {
     width: 100%;
-  }
+  } */
 }
