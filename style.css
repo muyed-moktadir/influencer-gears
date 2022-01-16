@@ -259,3 +259,52 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* for tablet */
+@media only screen and (min-width: 689px) and (max-width: 1023px) {
+  .container {
+    width: 80% !important;
+  }
+  .influencer-box {
+    margin-bottom: 0%;
+  }
+
+  .photo-box img {
+    width: 100%;
+    height: 50%;
+  }
+
+  .my-role {
+    font-size: 16px;
+    width: 340px;
+  }
+
+  .button-design {
+    margin-top: 18%;
+  }
+
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .see-more {
+    margin-right: 0%;
+  }
+
+  .feature-product .feature-image img {
+    width: 100%;
+
+    margin-top: 41%;
+  }
+
+  /* .element.style {
+  } */
+
+  .feature-product {
+    margin: 0%;
+  }
+
+  .button-design {
+    margin-bottom: 50%;
+  }
+}
