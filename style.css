@@ -101,7 +101,7 @@ body {
 
 .product {
   position: relative;
-  padding: 20px;
+  padding: 0%;
   margin-top: 0%;
   border-radius: 6px;
   overflow: hidden;
@@ -111,7 +111,7 @@ body {
 
 .product .product-image:hover {
   transform: scale(1.4) rotate(360deg);
-  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in;
 }
 
 .product-title {
@@ -123,11 +123,6 @@ body {
   font-size: 24px;
   margin: 0%;
 }
-
-/* .product-info p {
-  padding: 0%;
-  margin: 0%;
-} */
 
 .fa-star.filled {
   color: #fb8200;
@@ -174,7 +169,6 @@ body {
 .feature-article {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
 }
 
 .feature-news {
@@ -199,36 +193,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-/* #footer-info {
-  padding: 0%;
-  margin: 0%;
-}
-
-.footer-paragaraph {
-  padding: 0%;
-  margin: 0%;
-} */
-
-/* .social-icons i {
-  padding: 0%;
-  margin: 0%;
-} */
-
-/* .footer-items {
-  color: white;
-  width: 100%;
-  height: 180px;
-  background-color: rgb(0, 0, 46);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .footer-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 
 .social-icons {
   width: 114px;
@@ -296,9 +260,6 @@ footer {
 
     margin-top: 41%;
   }
-
-  /* .element.style {
-  } */
 
   .feature-product {
     margin: 0%;
